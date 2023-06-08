@@ -1,11 +1,7 @@
 # An area to practice code:
 
-cities = ['Chicago', 'Houston', 'New York', 'Miami']
+cities = [['Chicago', 'Houston', 'New York', 'Miami'], ['Oklahoma City', 'Los Angeles', 'Gary', 'Lisle', 'Dallas']]
 
-Humans = ('Kayla', 'Kalee', 'Brian', 'Bailey')
-
-print(cities[2:], Humans)
-
-cities.append('Naperville')
+del cities[1][3]
 
 print(cities)
